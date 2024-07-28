@@ -1,5 +1,5 @@
 import userModel from '../models/UserModel.js'
-import { getDataUri } from '../utils/Features.js';
+import { getDataUri } from '../utils/features.js';
 import cloudinary from 'cloudinary'
 
 // REGISTER CONTROLLER
