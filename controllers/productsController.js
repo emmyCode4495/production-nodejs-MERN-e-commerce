@@ -1,7 +1,7 @@
 //GET ALL PRODUCTS
 
 import productModel from "../models/ProductsModel.js"
-import { getDataUri } from "../utils/Features.js"
+import { getDataUri } from "../utils/features.js"
 import cloudinary from 'cloudinary'
 
 export const getAllProductsController = async (req,res)=>{
